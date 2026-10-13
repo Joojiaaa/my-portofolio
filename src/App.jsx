@@ -49,8 +49,16 @@ export default function App() {
     }, 1200);
   };
 
-  // Daftar Proyek dari Repositori GitHub
+  // Daftar Proyek dari Repositori GitHub Jian Anggreni
   const projects = [
+    {
+      title: 'Interactive Web Portfolio',
+      category: 'se',
+      desc: 'Portofolio web interaktif berkinerja tinggi berbasis React, Vite, dan Tailwind CSS v4 dengan integrasi widget simulasi AI.',
+      tags: ['React', 'Vite', 'Tailwind CSS', 'Lucide React'],
+      github: 'https://github.com/Joojiaaa/my-portofolio',
+      demo: 'https://github.com/Joojiaaa/my-portofolio'
+    },
     {
       title: 'Proyek Jurnal Rekayasa Web',
       category: 'se',
